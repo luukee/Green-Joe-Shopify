@@ -27,7 +27,7 @@
       "login_form_submit": "Enter",
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
+      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"text-link\">Log in here<\/a>",
       "password_link": "Enter using password",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
     },
@@ -49,8 +49,8 @@
       "placeholder": "Search",
       "submit": "Search again",
       "results_count_html": {
-        "one": "{{ count }} match for <strong>{{ terms }}</strong>",
-        "other": "{{ count }} matches for <strong>{{ terms }}</strong>"
+        "one": "{{ count }} match for <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} matches for <strong>{{ terms }}<\/strong>"
       }
     },
     "newsletter_form": {
@@ -67,7 +67,7 @@
     "navigation": {
       "toggle_sublinks": "{{ link_title }} menu"
     },
-      "payment": {
+    "payment": {
       "method": "Payment icons"
     }
   },
@@ -98,9 +98,9 @@
       "note": "Special instructions for seller",
       "subtotal": "Subtotal",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "update": "Update Cart",
       "checkout": "Checkout",
       "empty": "Your cart is currently empty.",
@@ -169,9 +169,9 @@
       "address1": "Address1",
       "address2": "Address2",
       "city": "City",
-      "country": "Country/Region",
+      "country": "Country\/Region",
       "province": "Province",
-      "zip": "Postal/Zip Code",
+      "zip": "Postal\/Zip Code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add Address",
@@ -278,7 +278,7 @@
       "on_sale": "Sale",
       "from_text_html": "From {{ price }}",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "add_to_cart": "Add to Cart",
       "item_added_to_cart": "Item added to cart!",
       "view_cart": "View cart",
@@ -295,14 +295,14 @@
       "pause": "Pause background video",
       "play": "Play background video",
       "slide": "Slide {{ number }}",
-      "navigation_instructions": "Use left/right arrows to navigate the slideshow or swipe left/right if using a mobile device",
+      "navigation_instructions": "Use left\/right arrows to navigate the slideshow or swipe left\/right if using a mobile device",
       "load_slide": "Load slide {{ slide_number }}",
       "active_slide": "Slide {{ slide_number }}, current"
     },
     "map": {
       "address_error": "Error looking up that address",
       "address_no_results": "No results for that address",
-      "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>.",
+      "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>.",
       "auth_error_html": "There was a problem authenticating your Google Maps API Key."
     },
     "product_template": {

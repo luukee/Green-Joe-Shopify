@@ -27,7 +27,7 @@
       "login_form_submit": "Įvesti",
       "signup_form_email_label": "El. paštas",
       "signup_form_success": "Prieš pat atsidarydami atsiųsime jums el. laišką!",
-      "admin_link_html": "Ar esate parduotuvės savininkas? <a href=\"/admin\" class=\"text-link\">Prisijunkite čia</a>",
+      "admin_link_html": "Ar esate parduotuvės savininkas? <a href=\"\/admin\" class=\"text-link\">Prisijunkite čia<\/a>",
       "password_link": "Apsilankyti naudojant slaptažodį",
       "powered_by_shopify_html": "Ši parduotuvė priklausys platformai „{{ shopify }}“"
     },
@@ -49,8 +49,8 @@
       "placeholder": "Ieškoti",
       "submit": "Ieškoti dar kartą",
       "results_count_html": {
-        "one": "<strong>{{ terms }}</strong> atitikčių skaičius: {{ count }}",
-        "other": "<strong>{{ terms }}</strong> atitikčių skaičius: {{ count }}"
+        "one": "<strong>{{ terms }}<\/strong> atitikčių skaičius: {{ count }}",
+        "other": "<strong>{{ terms }}<\/strong> atitikčių skaičius: {{ count }}"
       }
     },
     "newsletter_form": {
@@ -98,9 +98,9 @@
       "note": "Specialūs nurodymai pardavėjui",
       "subtotal": "Tarpinė suma",
       "taxes_and_shipping_at_checkout": "Mokesčiai ir siuntimo išlaidos apskaičiuojami atsiskaitant",
-      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\">siuntimo išlaidos</a> apskaičiuojami atsiskaitant",
+      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\">siuntimo išlaidos<\/a> apskaičiuojami atsiskaitant",
       "taxes_included_but_shipping_at_checkout": "Mokesčiai įtraukti, o siuntimo išlaidos apskaičiuojamos atsiskaitant",
-      "taxes_included_and_shipping_policy_html": "Mokesčiai įtraukti. <a href=\"{{ link }}\">Siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
+      "taxes_included_and_shipping_policy_html": "Mokesčiai įtraukti. <a href=\"{{ link }}\">Siuntimo išlaidos<\/a> apskaičiuojamos atsiskaitant.",
       "update": "Atnaujinti krepšelį",
       "checkout": "Atsiskaityti",
       "empty": "Šiuo metu jūsų krepšelis tuščias.",
@@ -169,7 +169,7 @@
       "address1": "Adresas (1)",
       "address2": "Adresas (2)",
       "city": "Miestas",
-      "country": "Šalis / regionas",
+      "country": "Šalis \/ regionas",
       "province": "Sritis",
       "zip": "Pašto kodas",
       "phone": "Telefonas",
@@ -278,7 +278,7 @@
       "on_sale": "Išpardavimas",
       "from_text_html": "Nuo {{ price }}",
       "include_taxes": "Mokesčiai įtraukti.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimo išlaidos<\/a> apskaičiuojamos atsiskaitant.",
       "add_to_cart": "Pridėti prie krepšelio",
       "item_added_to_cart": "Prekė pridėta prie krepšelio!",
       "view_cart": "Žr. krepšelį",
@@ -302,7 +302,7 @@
     "map": {
       "address_error": "Ieškant šio adreso įvyko klaida",
       "address_no_results": "Nerasta šio adreso rezultatų",
-      "address_query_limit_html": "Viršijote „Google“ API naudojimo apribojimą. Apsvarstykite galimybę naujovinti į <a href=\"https://developers.google.com/maps/premium/usage-limits\">planą „Premium“</a>.",
+      "address_query_limit_html": "Viršijote „Google“ API naudojimo apribojimą. Apsvarstykite galimybę naujovinti į <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">planą „Premium“<\/a>.",
       "auth_error_html": "Patvirtinant „Google“ žemėlapių API raktą iškilo problema."
     },
     "product_template": {

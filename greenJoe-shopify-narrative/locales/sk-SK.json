@@ -27,7 +27,7 @@
       "login_form_submit": "Prejsť",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Tesne pred otvorením vám odošleme e-mail!",
-      "admin_link_html": "Ste vlastníkom obchodu? <a href=\"/admin\" class=\"text-link\">Prihláste sa tu</a>",
+      "admin_link_html": "Ste vlastníkom obchodu? <a href=\"\/admin\" class=\"text-link\">Prihláste sa tu<\/a>",
       "password_link": "Prejsť s použitím hesla",
       "powered_by_shopify_html": "Tento obchod bude používať technológiu {{ shopify }}"
     },
@@ -49,8 +49,8 @@
       "placeholder": "Vyhľadať",
       "submit": "Hľadať znova",
       "results_count_html": {
-        "one": "{{ count }} výsledok pre výraz <strong>{{ terms }}</strong>",
-        "other": "Počet výsledkov pre výraz <strong>{{ terms }}</strong>: {{ count }}"
+        "one": "{{ count }} výsledok pre výraz <strong>{{ terms }}<\/strong>",
+        "other": "Počet výsledkov pre výraz <strong>{{ terms }}<\/strong>: {{ count }}"
       }
     },
     "newsletter_form": {
@@ -98,9 +98,9 @@
       "note": "Špeciálne pokyny pre predajcu",
       "subtotal": "Medzisúčet",
       "taxes_and_shipping_at_checkout": "Dane a doprava sa vypočítajú v pokladni",
-      "taxes_and_shipping_policy_at_checkout_html": "Dane a <a href=\"{{ link }}\">doprava</a> sa vypočítajú v pokladni",
+      "taxes_and_shipping_policy_at_checkout_html": "Dane a <a href=\"{{ link }}\">doprava<\/a> sa vypočítajú v pokladni",
       "taxes_included_but_shipping_at_checkout": "Dane sa zahrnú a doprava sa vypočíta v pokladni",
-      "taxes_included_and_shipping_policy_html": "Vrátane dane. <a href=\"{{ link }}\">Doprava</a> sa vypočíta v pokladni.",
+      "taxes_included_and_shipping_policy_html": "Vrátane dane. <a href=\"{{ link }}\">Doprava<\/a> sa vypočíta v pokladni.",
       "update": "Aktualizovať košík",
       "checkout": "Do pokladne",
       "empty": "Váš košík je momentálne prázdny.",
@@ -169,7 +169,7 @@
       "address1": "Adresa 1",
       "address2": "Adresa 2",
       "city": "Mesto",
-      "country": "Krajina/oblasť",
+      "country": "Krajina\/oblasť",
       "province": "Kraj",
       "zip": "Poštové smerovacie číslo",
       "phone": "Telefón",
@@ -278,7 +278,7 @@
       "on_sale": "Zľava",
       "from_text_html": "Od {{ price }}",
       "include_taxes": "Vrátane dane.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Doprava</a> sa vypočíta v pokladni.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Doprava<\/a> sa vypočíta v pokladni.",
       "add_to_cart": "Pridať do košíka",
       "item_added_to_cart": "Položka sa pridala do košíka.",
       "view_cart": "Zobraziť košík",
@@ -295,14 +295,14 @@
       "pause": "Pozastaviť video na pozadí",
       "play": "Prehrať video na pozadí",
       "slide": "Snímka {{ number }}",
-      "navigation_instructions": "Na navigáciu v prezentácii použite šípky doľava/doprava alebo ak používate mobilné zariadenie, potiahnite prstom doľava/doprava",
+      "navigation_instructions": "Na navigáciu v prezentácii použite šípky doľava\/doprava alebo ak používate mobilné zariadenie, potiahnite prstom doľava\/doprava",
       "load_slide": "Načítať snímku {{ slide_number }}",
       "active_slide": "Snímka {{ slide_number }}, aktuálne"
     },
     "map": {
       "address_error": "Pri vyhľadávaní tejto adresy sa vyskytla chyba",
       "address_no_results": "Pre túto adresu sa nenašli žiadne výsledky",
-      "address_query_limit_html": "Prekročili ste limit používania rozhrania Google API. Zvážte inováciu na <a href=\"https://developers.google.com/maps/premium/usage-limits\">prémiový plán</a>.",
+      "address_query_limit_html": "Prekročili ste limit používania rozhrania Google API. Zvážte inováciu na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">prémiový plán<\/a>.",
       "auth_error_html": "Pri overovaní kľúča rozhrania API Máp Google sa vyskytol problém."
     },
     "product_template": {

@@ -1,6 +1,6 @@
 {%- assign limit = section.settings.products | times: section.settings.rows -%}
 {%- assign totalProducts = collection.products.size -%}
-
+<h3>this and that</h3>
 <div class="collection-template" data-section-id="{{ section.id }}" data-section-type="collection-template">
   {% paginate collection.products by limit %}
 

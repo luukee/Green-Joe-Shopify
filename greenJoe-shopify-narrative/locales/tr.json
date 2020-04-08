@@ -3,7 +3,7 @@
     "accessibility": {
       "skip_to_content": "İçeriğe atla",
       "refresh_page": "Bir seçim yapmanız sayfanın tamamının yenilenmesine neden olur.",
-      "unit_price_separator": "/",
+      "unit_price_separator": "\/",
       "selection_help": "Bir seçim yapmak için boşluk tuşuna sonra ok tuşlarına basın."
     },
     "meta": {
@@ -27,7 +27,7 @@
       "login_form_submit": "Gir",
       "signup_form_email_label": "E-posta",
       "signup_form_success": "Açılıştan hemen önce size e-posta göndereceğiz!",
-      "admin_link_html": "Mağaza sahibi misiniz? <a href=\"/admin\" class=\"text-link\">Buradan oturum açın</a>",
+      "admin_link_html": "Mağaza sahibi misiniz? <a href=\"\/admin\" class=\"text-link\">Buradan oturum açın<\/a>",
       "password_link": "Parola kullanarak girin",
       "powered_by_shopify_html": "Bu mağaza {{ shopify }} tarafından desteklenir"
     },
@@ -49,8 +49,8 @@
       "placeholder": "Ara",
       "submit": "Yeniden ara",
       "results_count_html": {
-        "one": "<strong>{{ terms }}</strong> için {{ count }} eşleşme",
-        "other": "<strong>{{ terms }}</strong> için {{ count }} eşleşme"
+        "one": "<strong>{{ terms }}<\/strong> için {{ count }} eşleşme",
+        "other": "<strong>{{ terms }}<\/strong> için {{ count }} eşleşme"
       }
     },
     "newsletter_form": {
@@ -98,9 +98,9 @@
       "note": "Satıcıya özel talimatlar",
       "subtotal": "Alt toplam",
       "taxes_and_shipping_at_checkout": "Vergiler ve kargo, ödeme sayfasında hesaplanır",
-      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">kargo</a>, ödeme sayfasında hesaplanır",
+      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">kargo<\/a>, ödeme sayfasında hesaplanır",
       "taxes_included_but_shipping_at_checkout": "Vergi dahildir ve kargo, ödeme sayfasında hesaplanır",
-      "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır.",
+      "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır.",
       "update": "Sepeti Güncelle",
       "checkout": "Ödeme sayfası",
       "empty": "Sepetiniz şu anda boş.",
@@ -169,7 +169,7 @@
       "address1": "Adres 1",
       "address2": "Adres 2",
       "city": "Şehir",
-      "country": "Ülke/Bölge",
+      "country": "Ülke\/Bölge",
       "province": "İl",
       "zip": "Posta Kodu",
       "phone": "Telefon",
@@ -278,7 +278,7 @@
       "on_sale": "Satış",
       "from_text_html": "Şu tarihten itibaren: {{ price }}",
       "include_taxes": "Vergi dahildir.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır.",
       "add_to_cart": "Sepete Ekle",
       "item_added_to_cart": "Ürün sepete eklendi!",
       "view_cart": "Sepeti görüntüle",
@@ -295,14 +295,14 @@
       "pause": "Arka plandaki videoyu duraklat",
       "play": "Arka plandaki videoyu oynat",
       "slide": "{{ number }}. slayt",
-      "navigation_instructions": "Slayt gösterisinde gezinmek için sol/sağ okları kullanın veya mobil cihaz kullanıyorsanız parmağınızı sola/sağa kaydırın",
+      "navigation_instructions": "Slayt gösterisinde gezinmek için sol\/sağ okları kullanın veya mobil cihaz kullanıyorsanız parmağınızı sola\/sağa kaydırın",
       "load_slide": "{{ slide_number }}. slaytı yükle",
       "active_slide": "{{ slide_number }}. slayt, mevcut"
     },
     "map": {
       "address_error": "Bu adres aranırken hata oluştu",
       "address_no_results": "Bu adres için sonuç yok",
-      "address_query_limit_html": "Google API kullanım sınırını aştınız. <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>'a yükseltmeyi düşünün.",
+      "address_query_limit_html": "Google API kullanım sınırını aştınız. <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>'a yükseltmeyi düşünün.",
       "auth_error_html": "Google Haritalar API Anahtarınızın kimliği doğrulanırken sorun oluştu."
     },
     "product_template": {

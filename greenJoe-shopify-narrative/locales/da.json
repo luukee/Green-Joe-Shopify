@@ -27,7 +27,7 @@
       "login_form_submit": "Tilgå",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Vi sender en e-mail til dig, lige inden vi åbner.",
-      "admin_link_html": "Ejer du butikken? <a href=\"/admin\" class=\"text-link\">Log ind her</a>",
+      "admin_link_html": "Ejer du butikken? <a href=\"\/admin\" class=\"text-link\">Log ind her<\/a>",
       "password_link": "Brug adgangskode for at få adgang",
       "powered_by_shopify_html": "Denne butik vil blive drevet af {{ shopify }}"
     },
@@ -49,8 +49,8 @@
       "placeholder": "Søg",
       "submit": "Søg igen",
       "results_count_html": {
-        "one": "{{ count }} resultater for <strong>{{ terms }}</strong>",
-        "other": "{{ count }} matches for <strong>{{ terms }}</strong>"
+        "one": "{{ count }} resultater for <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} matches for <strong>{{ terms }}<\/strong>"
       }
     },
     "newsletter_form": {
@@ -98,9 +98,9 @@
       "note": "Særlige instruktioner til sælger",
       "subtotal": "Subtotal",
       "taxes_and_shipping_at_checkout": "Skatter og levering beregnes ved betaling",
-      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">levering</a> beregnes ved betaling",
+      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">levering<\/a> beregnes ved betaling",
       "taxes_included_but_shipping_at_checkout": "Inklusive skat. Levering beregnes ved betaling",
-      "taxes_included_and_shipping_policy_html": "Inklusive skat. <a href=\"{{ link }}\">Levering</a> beregnes ved betaling.",
+      "taxes_included_and_shipping_policy_html": "Inklusive skat. <a href=\"{{ link }}\">Levering<\/a> beregnes ved betaling.",
       "update": "Opdater indkøbskurv",
       "checkout": "Betaling",
       "empty": "Din indkøbskurv er tom.",
@@ -169,7 +169,7 @@
       "address1": "Adresse 1",
       "address2": "Adresse 2",
       "city": "By",
-      "country": "Land/område",
+      "country": "Land\/område",
       "province": "Landsdel",
       "zip": "Postnummer",
       "phone": "Telefon",
@@ -278,7 +278,7 @@
       "on_sale": "Udsalg",
       "from_text_html": "Fra {{ price }}",
       "include_taxes": "Inklusive moms.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Levering</a> beregnes ved betaling.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Levering<\/a> beregnes ved betaling.",
       "add_to_cart": "Læg i indkøbskurv",
       "item_added_to_cart": "Varen er lagt i indkøbskurven.",
       "view_cart": "Se indkøbskurv",
@@ -295,14 +295,14 @@
       "pause": "Sæt baggrundsvideo på pause",
       "play": "Afspil baggrundsvideo",
       "slide": "Billede {{ number }}",
-      "navigation_instructions": "Brug venstre/højre pile til at navigere i diasshowet eller swipe til venstre/højre, hvis du bruger en mobilenhed",
+      "navigation_instructions": "Brug venstre\/højre pile til at navigere i diasshowet eller swipe til venstre\/højre, hvis du bruger en mobilenhed",
       "load_slide": "Indlæs dias {{ slide_number }}",
       "active_slide": "Billede nr. {{ slide_number }}, aktuel"
     },
     "map": {
       "address_error": "Der opstod en fejl under forsøg på at finde adressen",
       "address_no_results": "Ingen resultater for den adresse",
-      "address_query_limit_html": "Du har overskredet Googles API-brugerbegrænsning. Overvej at opgradere til et <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-abonnement</a>.",
+      "address_query_limit_html": "Du har overskredet Googles API-brugerbegrænsning. Overvej at opgradere til et <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-abonnement<\/a>.",
       "auth_error_html": "Der opstod en fejl under bekræftelse af din Google Maps API-nøgle."
     },
     "product_template": {

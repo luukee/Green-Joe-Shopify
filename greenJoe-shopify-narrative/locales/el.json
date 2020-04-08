@@ -27,7 +27,7 @@
       "login_form_submit": "Είσοδος",
       "signup_form_email_label": "Email",
       "signup_form_success": "Θα σας στείλουμε ένα email λίγο πριν ανοίξουμε!",
-      "admin_link_html": "Είστε ο ιδιοκτήτης του καταστήματος; <a href=\"/admin\" class=\"text-link\">Συνδεθείτε εδώ</a>",
+      "admin_link_html": "Είστε ο ιδιοκτήτης του καταστήματος; <a href=\"\/admin\" class=\"text-link\">Συνδεθείτε εδώ<\/a>",
       "password_link": "Είσοδος με τη χρήση κωδικού πρόσβασης",
       "powered_by_shopify_html": "Αυτό το κατάστημα θα υποστηρίζεται από το {{ shopify }}"
     },
@@ -49,8 +49,8 @@
       "placeholder": "Αναζήτηση",
       "submit": "Επανάληψη αναζήτησης",
       "results_count_html": {
-        "one": "{{ count }} αποτέλεσμα για <strong>{{ terms }}</strong>",
-        "other": "{{ count }} αποτελέσματα για <strong>{{ terms }}</strong>"
+        "one": "{{ count }} αποτέλεσμα για <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} αποτελέσματα για <strong>{{ terms }}<\/strong>"
       }
     },
     "newsletter_form": {
@@ -98,9 +98,9 @@
       "note": "Ειδικές οδηγίες για τον πωλητή",
       "subtotal": "Υποσύνολο",
       "taxes_and_shipping_at_checkout": "Οι φόροι και τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της παραγγελίας",
-      "taxes_and_shipping_policy_at_checkout_html": "Οι φόροι και τα <a href=\"{{ link }}\">έξοδα αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της παραγγελίας",
+      "taxes_and_shipping_policy_at_checkout_html": "Οι φόροι και τα <a href=\"{{ link }}\">έξοδα αποστολής<\/a> υπολογίζονται κατά την ολοκλήρωση της παραγγελίας",
       "taxes_included_but_shipping_at_checkout": "Ο φόρος συμπεριλαμβάνεται και τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της παραγγελίας",
-      "taxes_included_and_shipping_policy_html": "Ο φόρος συμπεριλαμβάνεται. Τα <a href=\"{{ link }}\">έξοδα αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της παραγγελίας.",
+      "taxes_included_and_shipping_policy_html": "Ο φόρος συμπεριλαμβάνεται. Τα <a href=\"{{ link }}\">έξοδα αποστολής<\/a> υπολογίζονται κατά την ολοκλήρωση της παραγγελίας.",
       "update": "Ενημέρωση καλαθιού",
       "checkout": "Ολοκλήρωση παραγγελίας",
       "empty": "Το καλάθι σας είναι κενό.",
@@ -169,7 +169,7 @@
       "address1": "Διεύθυνση1",
       "address2": "Διεύθυνση2",
       "city": "Πόλη",
-      "country": "Χώρα/Περιοχή",
+      "country": "Χώρα\/Περιοχή",
       "province": "Νομός",
       "zip": "Ταχυδρομικός κώδικας",
       "phone": "Τηλέφωνο",
@@ -278,7 +278,7 @@
       "on_sale": "Έκπτωση",
       "from_text_html": "Από {{ price }}",
       "include_taxes": "Ο φόρος συμπεριλαμβάνεται.",
-      "shipping_policy_html": "Τα <a href=\"{{ link }}\">έξοδα αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της παραγγελίας.",
+      "shipping_policy_html": "Τα <a href=\"{{ link }}\">έξοδα αποστολής<\/a> υπολογίζονται κατά την ολοκλήρωση της παραγγελίας.",
       "add_to_cart": "Προσθήκη στο καλάθι",
       "item_added_to_cart": "Το αντικείμενο προστέθηκε στο καλάθι!",
       "view_cart": "Προβολή καλαθιού",
@@ -295,14 +295,14 @@
       "pause": "Παύση βίντεο στο παρασκήνιο",
       "play": "Αναπαραγωγή βίντεο στο παρασκήνιο",
       "slide": "Διαφάνεια {{ number }}",
-      "navigation_instructions": "Χρησιμοποιήστε το αριστερό και το δεξί βέλος για να περιηγηθείτε στην παρουσίαση ή σύρετε αριστερά/δεξιά, αν χρησιμοποιείτε κινητή συσκευή",
+      "navigation_instructions": "Χρησιμοποιήστε το αριστερό και το δεξί βέλος για να περιηγηθείτε στην παρουσίαση ή σύρετε αριστερά\/δεξιά, αν χρησιμοποιείτε κινητή συσκευή",
       "load_slide": "Φόρτωση διαφάνειας {{ slide_number }}",
       "active_slide": "Διαφάνεια {{ slide_number }}, τρέχουσα"
     },
     "map": {
       "address_error": "Σφάλμα κατά την αναζήτηση της συγκεκριμένης διεύθυνσης",
       "address_no_results": "Δεν υπάρχουν αποτελέσματα για αυτήν τη διεύθυνση",
-      "address_query_limit_html": "Ξεπεράσατε το όριο χρήσης του Google API. Σκεφτείτε το ενδεχόμενο να κάνετε αναβάθμιση σε ένα <a href=\"https://developers.google.com/maps/premium/usage-limits\">Πρόγραμμα Premium</a>.",
+      "address_query_limit_html": "Ξεπεράσατε το όριο χρήσης του Google API. Σκεφτείτε το ενδεχόμενο να κάνετε αναβάθμιση σε ένα <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Πρόγραμμα Premium<\/a>.",
       "auth_error_html": "Παρουσιάστηκε πρόβλημα κατά τον έλεγχο ταυτότητας του κλειδιού API των Χαρτών Google."
     },
     "product_template": {
