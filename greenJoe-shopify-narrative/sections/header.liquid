@@ -191,7 +191,16 @@
               }
             </style>
 
-            <img class="site-header__logo-image" src="{{ section.settings.logo | img_url: image_size }}" srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x" alt="{{ section.settings.logo.alt | default: shop.name }}" itemprop="logo">
+
+            {%- comment -%}
+            <img class="site-header__logo-image" src="{{ section.settings.logo | img_url: image_size }}"
+              srcset="{{ section.settings.logo | img_url: image_size  }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+              alt="{{ section.settings.logo.alt | default: shop.name }}" itemprop="logo">
+            {%- endcomment -%}
+
+            <img class="site-header__logo-image" src="https://cdn.shopify.com/s/files/1/0091/2139/8864/files/Asset_2green-joe-coffee-official-logo-4.svg?v=1586364428"
+              srcset="https://cdn.shopify.com/s/files/1/0091/2139/8864/files/Asset_2green-joe-coffee-official-logo-4.svg?v=1586364428"
+              alt="{{ section.settings.logo.alt | default: shop.name }}" itemprop="logo">
 
             {% if request.page_type == 'index' and section.settings.enable_transparent %}
               {% if section.settings.transparent_logo == blank %}
@@ -323,7 +332,7 @@
       ]
     },
     {
-      "type": "image_picker",
+      "type": "text",
       "id": "logo",
       "label": {
         "da": "Logo",
@@ -350,7 +359,7 @@
       "id": "logo_max_height",
       "type": "range",
       "min": 10,
-      "max": 60,
+      "max": 200,
       "step": 5,
       "unit": "px",
       "default": 15,
@@ -444,7 +453,7 @@
       "default": true
     },
     {
-      "type": "image_picker",
+      "type": "text",
       "id": "transparent_logo",
       "label": {
         "da": "Gennemsigtigt logo",

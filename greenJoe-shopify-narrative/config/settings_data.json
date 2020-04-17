@@ -6,10 +6,10 @@
     "color_primary_body_text": "#4a4a4a",
     "color_footer_text": "#4a4a4a",
     "color_button_text": "#ffffff",
-    "color_header_bg": "#f8f8f8",
-    "color_footer_bg": "#dcdadb",
+    "color_header_bg": "#ffffff",
+    "color_footer_bg": "#ffffff",
     "color_main_bg": "#ffffff",
-    "color_secondary_bg": "#f4f1ec",
+    "color_secondary_bg": "#ffffff",
     "color_product_cards": "#fff",
     "color_form_elements": "#fff",
     "color_cart_flag": "#50c878",
@@ -51,12 +51,12 @@
         "type": "header",
         "settings": {
           "icon": "bag",
-          "logo": "shopify:\/\/shop_images\/Asset_1green-joe-coffee-official-horizontal-logo-1_121f3957-485d-441c-84f1-fb9467679173.png",
-          "logo_max_height": 60,
+          "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/0091\/2139\/8864\/files\/Asset_2green-joe-coffee-official-logo-4.svg?v=1586364428",
+          "logo_max_height": 100,
           "enable_transparent": true,
-          "transparent_logo": "shopify:\/\/shop_images\/Asset_1green-joe-coffee-official-horizontal-logo-1_121f3957-485d-441c-84f1-fb9467679173.png",
-          "transparent_text_color": "#ffffff",
-          "primary_navigation": "",
+          "transparent_logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/0091\/2139\/8864\/files\/Asset_2green-joe-coffee-official-logo-4.svg?v=1586364428",
+          "transparent_text_color": "#4a4a4a",
+          "primary_navigation": "main-menu",
           "secondary_navigation": "",
           "show_social_icons": false,
           "show_announcement": false,
@@ -90,37 +90,6 @@
           "newsletter_subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
         }
       },
-      "1476381402840": {
-        "type": "video",
-        "settings": {
-          "cover_text": "",
-          "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-          "cover_image": "",
-          "cover_image_position": "center center",
-          "show_overlay": true,
-          "overlay_color": "#000000",
-          "overlay_text": "#ffffff",
-          "overlay_opacity": 30
-        }
-      },
-      "1476381658595": {
-        "type": "hero",
-        "settings": {
-          "hero_size": "large",
-          "image": "",
-          "alignment": "top left",
-          "title": "Talk about your brand",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-          "text_size": "medium",
-          "use_second_button": false,
-          "button_label": "",
-          "button_link": "",
-          "show_overlay": false,
-          "overlay_color": "#000000",
-          "overlay_text": "#3a3a3a",
-          "overlay_opacity": "0.5"
-        }
-      },
       "collection-template": {
         "type": "collection-template",
         "settings": {
@@ -135,63 +104,16 @@
           "show_vendor": false
         }
       },
-      "1478026923193": {
-        "type": "feature-row",
-        "settings": {
-          "size": "large",
-          "background_color": "#faf9f6",
-          "image": "",
-          "image_crop": "circle",
-          "alignment": "top left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "use_second_button": false,
-          "button_label": "",
-          "button_link": "",
-          "desktop_layout": "left",
-          "mobile_layout": "top"
-        }
-      },
-      "1478027260401": {
-        "type": "quotes",
-        "blocks": {
-          "1478027260401-0": {
-            "type": "quote",
-            "settings": {
-              "heading": "",
-              "quote": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-              "author": "Author's name"
-            }
-          },
-          "1478027389453": {
-            "type": "quote",
-            "settings": {
-              "heading": "",
-              "quote": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-              "author": "Author's name"
-            }
-          }
-        },
-        "block_order": [
-          "1478027260401-0",
-          "1478027389453"
-        ],
-        "settings": {
-          "color_bg": "#000000",
-          "color_text": "#ffffff",
-          "autoplay_speed": "6000"
-        }
-      },
       "product-template": {
         "type": "product-template",
         "settings": {
-          "show_quantity_selector": false,
+          "show_quantity_selector": true,
           "show_variant_labels": true,
           "show_vendor": false,
-          "enable_payment_button": true,
-          "show_share_buttons": true,
+          "enable_payment_button": false,
+          "show_share_buttons": false,
           "enable_video_looping": false,
-          "hide_variant_media": true
+          "hide_variant_media": false
         }
       },
       "blog-template": {
@@ -203,176 +125,6 @@
           "blog_show_date": true
         }
       },
-      "slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "1486649146314": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "center center",
-              "title": "Tell your story",
-              "button": "Slide title",
-              "cta": "View more",
-              "cta_link": ""
-            }
-          },
-          "1486649267624": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "center center",
-              "title": "Tell your story",
-              "button": "Slide title",
-              "cta": "View more",
-              "cta_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1486649146314",
-          "1486649267624"
-        ],
-        "settings": {
-          "slider_height": "full",
-          "center_cta": true,
-          "show_overlay": true,
-          "overlay_color": "#313131",
-          "overlay_text": "#ffffff",
-          "overlay_opacity": 30
-        }
-      },
-      "1486649413883": {
-        "type": "gallery",
-        "blocks": {
-          "1486649413883-0": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "center center",
-              "icon": "checkmark",
-              "cta_label": "Talk about your brand",
-              "link": ""
-            }
-          },
-          "1486649413883-1": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "center center",
-              "icon": "checkmark",
-              "cta_label": "Talk about your brand",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1486649413883-0",
-          "1486649413883-1"
-        ],
-        "settings": {
-          "section_height": "medium",
-          "show_overlay": true,
-          "overlay_color": "#3b3b3b",
-          "overlay_text": "#ffffff",
-          "overlay_opacity": "0.4"
-        }
-      },
-      "1486649522802": {
-        "type": "highlight",
-        "settings": {
-          "border_color": "#cbc8c1",
-          "content_alignment": "middle",
-          "image": "",
-          "image_position": "back",
-          "heading": "Gift card",
-          "text": "Looking for something for someone special? A gift card to our store is the perfect idea!",
-          "use_second_button": false,
-          "button_text": "View",
-          "button_link": ""
-        }
-      },
-      "1486649604878": {
-        "type": "featured-slider",
-        "blocks": {
-          "1486649604878-0": {
-            "type": "slide",
-            "settings": {
-              "background_color": "#9d988b",
-              "show_image": true,
-              "slide_image": "",
-              "slide_title": "Featured variant",
-              "slide_button_text": "View",
-              "slide_button_url": ""
-            }
-          },
-          "1486649604878-1": {
-            "type": "slide",
-            "settings": {
-              "background_color": "#cdcdcd",
-              "show_image": true,
-              "slide_image": "",
-              "slide_title": "Featured variant",
-              "slide_button_text": "View",
-              "slide_button_url": ""
-            }
-          },
-          "1486649604878-2": {
-            "type": "slide",
-            "settings": {
-              "background_color": "#a7a59e",
-              "show_image": true,
-              "slide_image": "",
-              "slide_title": "Featured variant",
-              "slide_button_text": "View",
-              "slide_button_url": ""
-            }
-          },
-          "1486649769533": {
-            "type": "slide",
-            "settings": {
-              "background_color": "#383a3c",
-              "show_image": true,
-              "slide_image": "",
-              "slide_title": "Featured variant",
-              "slide_button_text": "View",
-              "slide_button_url": ""
-            }
-          }
-        },
-        "block_order": [
-          "1486649604878-0",
-          "1486649604878-1",
-          "1486649604878-2",
-          "1486649769533"
-        ],
-        "settings": {
-          "use_second_button": false,
-          "text_color": "#ffffff",
-          "cover_image": "",
-          "cover_title": "Showcase some product information",
-          "cover_title_desktop_position": "center",
-          "show_overlay": true,
-          "overlay_color": "#404040",
-          "overlay_text": "#ffffff",
-          "overlay_opacity": "0.2"
-        }
-      },
-      "1486649811524": {
-        "type": "featured-product",
-        "settings": {
-          "featured_product": "",
-          "show_quantity_selector": false,
-          "show_variant_labels": true,
-          "show_vendor": false,
-          "enable_payment_button": true,
-          "show_share_buttons": true,
-          "enable_video_looping": false,
-          "layout": "square",
-          "media_size": "cover",
-          "background_color": "transparent"
-        }
-      },
       "article-template": {
         "type": "article-template",
         "settings": {
@@ -382,47 +134,52 @@
           "show_share_buttons": true
         }
       },
-      "1492806970384": {
+      "1586360159097": {
         "type": "custom-content",
         "blocks": {
-          "1492806970384-0": {
-            "type": "text",
+          "1586360180676": {
+            "type": "product",
             "settings": {
-              "heading_text": "",
-              "heading_color": "#3a3a3a",
-              "heading_style": "h4",
-              "paragraph_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-              "paragraph_color": "#4a4a4a",
-              "paragraph_size": "1",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
+              "product": "organic-single-origin-ground-coffee",
+              "show_spacing": true,
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "1586360215629": {
+            "type": "product",
+            "settings": {
+              "product": "organic-single-origin-whole-bean-coffee",
+              "show_spacing": true,
+              "width": "50%",
+              "alignment": "center"
             }
           }
         },
         "block_order": [
-          "1492806970384-0"
+          "1586360215629",
+          "1586360180676"
         ],
         "settings": {
           "heading_text": "",
-          "heading_color": "#3a3a3a",
+          "heading_color": "#242424",
           "background_color": "",
-          "top_margin": true,
+          "top_margin": false,
           "bottom_margin": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_spacing": true,
+          "show_vendor": true
         }
       }
     },
     "content_for_index": [
-      "slideshow",
-      "1478026923193",
-      "1476381402840",
-      "1476381658595",
-      "1486649413883",
-      "1478027260401",
-      "1492806970384",
-      "1486649522802",
-      "1486649604878",
-      "1486649811524"
+      "1586360159097"
     ]
   },
   "presets": {
@@ -436,18 +193,21 @@
       "sections": {
         "header": {
           "type": "header",
-          "settings": {}
+          "settings": {
+          }
         },
         "slideshow": {
           "type": "slideshow",
           "blocks": {
             "slide-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "slide-1": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -474,22 +234,26 @@
         },
         "rich-text": {
           "type": "rich-text",
-          "settings": {}
+          "settings": {
+          }
         },
         "gallery": {
           "type": "gallery",
           "blocks": {
             "gallery-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "gallery-1": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "gallery-2": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -560,7 +324,8 @@
           "blocks": {
             "footer-0": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -662,7 +427,8 @@
         },
         "1476381402840": {
           "type": "video",
-          "settings": {}
+          "settings": {
+          }
         },
         "1476381658595": {
           "type": "hero",
@@ -712,11 +478,13 @@
           "blocks": {
             "1478027260401-0": {
               "type": "quote",
-              "settings": {}
+              "settings": {
+              }
             },
             "1478027389453": {
               "type": "quote",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -750,19 +518,23 @@
           "blocks": {
             "1486649146314": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "1486649185448": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "1486649208703": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "1486649267624": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -783,11 +555,13 @@
           "blocks": {
             "1486649413883-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "1486649413883-1": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -964,7 +738,8 @@
           "blocks": {
             "1486583739899": {
               "type": "video",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -1284,7 +1059,8 @@
           "blocks": {
             "1486663529263": {
               "type": "video",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
